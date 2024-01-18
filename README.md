@@ -22,7 +22,4 @@ The program will then read the command(s) provided one at a time, and perform th
 * PRINT : Prints the clauses currently in the knowledge base
 * ASK <query> : Determines if the knowledge base entails <query> using the resolution refutation method. (ONLY SUPPORTING LITERALS; LITERALS MAY INCLUDE PARENTHESES AND/OR NEGATIONS)
 * PROOF <query> : Prints a proof of <query> from the knowledge base, obtained via the resolution refutation method. (ONLY SUPPORTING LITERALS; LITERALS MAY INCLUDE PARENTHESES AND/OR NEGATIONS)
-* PARSE <sentence> : Prints the parse tree of the given <sentence> in (simplified) propositional logic. (NOT CURRENTLY SUPPORTED)
-* CNF <sentence> : Prints the conjunctive normal form representation of the given <sentence> in (simplified) propositional logic. (ONLY SUPPORTING LITERALS; LITERALS MAY INCLUDE PARENTHESES AND/OR NEGATIONS)
-* TELL <sentence> : Adds the clauses in the CNF representation of <sentence> to the knowledge base. (NOT CURRENTLY SUPPORTED)
 
